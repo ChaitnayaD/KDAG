@@ -1,0 +1,9 @@
+.card:hover{
+    transform: translateY(-5%);
+    @include respond(phone) { 
+        transform: none;
+    }
+}
+.card-img-top{
+    height: 45vh;
+}

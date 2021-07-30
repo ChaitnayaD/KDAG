@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #333;
+    width: 100%;
+    overflow:hidden;
+    position:sticky;
+    z-index: 1;
+    top: 0;
+    
+    
+  }
+  .navbar a {
+    float: left;
+    margin-left: 100px;
+    margin-right: 20px;
+   position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: rgb(138, 132, 132);
+    color: black;
+  }

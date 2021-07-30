@@ -1,0 +1,32 @@
+.caption {
+    color: white;
+    font-weight: 500;
+    font-size: 5vw;
+    @include respond(desktop){
+      font-size: 4vw;
+    }
+
+}
+.caption:hover{
+    text-decoration: underline;
+    color: black;
+}
+.subcaption{
+    color: white;
+    font-size: 3vw;
+}
+.subcaption:hover{
+    color: black;
+}
+.carimg{
+    height: 70vh;
+}
+.caption1 {
+    color: black;
+    font-weight: 700;
+    font-size: 5vw;
+}
+.caption1:hover{
+  
+   text-decoration: underline;
+}
