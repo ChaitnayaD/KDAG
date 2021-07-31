@@ -161,3 +161,22 @@ html {
 .navbar a:hover {
   background-color: #8a8484;
   color: black; }
+
+.brand {
+  width: 8vh;
+  height: 5vh; }
+
+.cart {
+  width: 100%;
+  height: auto;
+  border: solid black;
+  margin-top: 5%;
+  margin-right: 0; }
+  @media (max-width: 576px) {
+    .cart {
+      padding-top: 5%;
+      margin-top: 8%; } }
+
+img {
+  height: 25vh;
+  width: 45vh; }

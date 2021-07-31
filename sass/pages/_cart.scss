@@ -1,0 +1,17 @@
+.cart{
+    width: 100%;
+    height: auto;
+    border: solid black;
+    margin-top: 5%;
+   
+   margin-right: 0;
+    @include respond(phone){
+        padding-top: 5%;
+        margin-top: 8%;
+    }
+}
+
+img{
+  height: 25vh;
+  width: 45vh;
+}
