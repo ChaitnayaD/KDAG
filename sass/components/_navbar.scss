@@ -22,9 +22,13 @@
   
   
   .navbar a:hover {
-    background-color: rgb(138, 132, 132);
-    color: black;
+    @include respond(desktop){
+      background-color: rgb(138, 132, 132);
+      color: black
+    }
   }
+    
+  
   .brand{
     width: 8vh;
     height:5vh;

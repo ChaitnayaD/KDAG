@@ -8,6 +8,9 @@ html {
 .order {
   justify-content: center; }
 
+.button {
+  color: chartreuse; }
+
 .card:hover {
   transform: translateY(-5%); }
   @media (max-width: 576px) {
@@ -16,6 +19,10 @@ html {
 
 .card-img-top {
   height: 45vh; }
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700; }
 
 .mainhead {
   background-image: linear-gradient(rgba(117, 115, 115, 0.2), rgba(109, 109, 109, 0.8)), url("../images/mainhead.jpg");
@@ -113,7 +120,7 @@ html {
   color: white;
   font-weight: 500;
   font-size: 5vw; }
-  @media (min-width: 1800px) {
+  @media (min-width: 1300px) {
     .caption {
       font-size: 4vw; } }
 
@@ -132,7 +139,7 @@ html {
   height: 70vh; }
 
 .caption1 {
-  color: black;
+  color: #02ffea;
   font-weight: 700;
   font-size: 5vw; }
 
@@ -158,9 +165,10 @@ html {
   text-decoration: none;
   font-size: 17px; }
 
-.navbar a:hover {
-  background-color: #8a8484;
-  color: black; }
+@media (min-width: 1300px) {
+  .navbar a:hover {
+    background-color: #8a8484;
+    color: black; } }
 
 .brand {
   width: 8vh;

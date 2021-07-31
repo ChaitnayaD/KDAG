@@ -8,9 +8,27 @@ function addTocart(item){
      
      img.setAttribute('src',item.children[0].currentSrc);
 
+var title =document.createElement('div');
+title.innerText=item.children[1].children[0].innerText;
+
+var price =document.createElement('div');
+price.innerHTML=item.children[1].children[1].innerText;
+
+var delbtn=document.createElement('button');
+delbtn.innerText='Delete';
+delbtn.setAttribute('onClick', 'del('+addItem+')');
+delbtn.setAttribute('class','btn-danger');
+
+
     var cartItems=document.getElementById('title');
-   
-    cartItems.append(img);
+    selectedItem.append(img);
+    selectedItem.append(title);
+    selectedItem.append(price);
+    selectedItem.append(delbtn);
     cartItems.append(selectedItem);
   
+}
+
+function del(item){
+    document.getElementById(item).remove();
 }

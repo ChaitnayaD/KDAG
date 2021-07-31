@@ -15,7 +15,7 @@
         };
     }
     @if ($breakpoint == desktop) {
-        @media(min-width: 1800px){
+        @media(min-width: 1300px){
             @content
         };
     }
