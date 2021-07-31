@@ -1,4 +1,5 @@
 var addItem=0;
+var count=0;
 function addTocart(item){
     addItem=addItem+1;
    
@@ -17,9 +18,12 @@ var price =document.createElement('div');
 price.innerHTML=item.children[1].children[1].innerText;
 
 var delbtn=document.createElement('button');
-delbtn.innerText='Delete';
+delbtn.innerText='Remove';
 delbtn.setAttribute('onClick', 'del('+addItem+')');
 delbtn.setAttribute('class','btn-danger ');
+
+
+
 
 
     var cartItems=document.getElementById('title');
@@ -31,9 +35,20 @@ delbtn.setAttribute('class','btn-danger ');
     selectedItem.append(price);
     selectedItem.append(delbtn);
     cartItems.append(selectedItem);
-  
+  count=count+1;
 }
 
 function del(item){
     document.getElementById(item).remove();
+    count=count-1;
 }
+
+function alerting(){
+    if(count>0)
+{alert('Order Placed Successfully');
+
+}else{
+    alert('No items in your Cart')
+}
+}
+

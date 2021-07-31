@@ -6,7 +6,7 @@ html {
   font-size: 62.5%; }
 
 .order {
-  justify-content: center; }
+  padding: 3%; }
 
 .btn-danger {
   width: 70px;
