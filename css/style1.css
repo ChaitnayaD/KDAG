@@ -8,8 +8,11 @@ html {
 .order {
   justify-content: center; }
 
-.button {
-  color: chartreuse; }
+.btn-danger {
+  width: 70px;
+  height: 40px;
+  font-weight: 700;
+  font-size: medium; }
 
 .card:hover {
   transform: translateY(-5%); }
@@ -84,6 +87,18 @@ html {
   @media (max-width: 576px) {
     .mainhead2 {
       height: 30vh; } }
+
+.title3 {
+  color: black;
+  font-size: 3vw;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  font-style: italic;
+  font-weight: 700; }
+  @media (max-width: 576px) {
+    .title3 {
+      font-size: 8vw; } }
 
 .fa {
   padding: 15px;

@@ -71,3 +71,15 @@
         height: 30vh;
     }
 }
+.title3{
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    font-style: italic;
+    font-weight: 700;
+    @include respond(phone){
+      font-size: 8vw;
+  }
+}
