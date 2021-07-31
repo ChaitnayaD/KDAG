@@ -14,6 +14,12 @@ html {
   font-weight: 700;
   font-size: medium; }
 
+.now {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-weight: 700; }
+
 .card:hover {
   transform: translateY(-5%); }
   @media (max-width: 576px) {
@@ -26,6 +32,10 @@ html {
 .card-title {
   font-size: 20px;
   font-weight: 700; }
+
+.card-text {
+  font-size: 15px;
+  font-weight: 600; }
 
 .mainhead {
   background-image: linear-gradient(rgba(117, 115, 115, 0.2), rgba(109, 109, 109, 0.8)), url("../images/mainhead.jpg");

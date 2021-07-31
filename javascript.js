@@ -1,5 +1,6 @@
 var addItem=0;
 var count=0;
+var cost=0;
 function addTocart(item){
     addItem=addItem+1;
    
@@ -16,7 +17,7 @@ title.innerText=item.children[1].children[0].innerText;
 title.setAttribute('class','card-title');
 var price =document.createElement('div');
 price.innerHTML=item.children[1].children[1].innerText;
-
+price.setAttribute('class','card-text');
 var delbtn=document.createElement('button');
 delbtn.innerText='Remove';
 delbtn.setAttribute('onClick', 'del('+addItem+')');
@@ -36,6 +37,9 @@ delbtn.setAttribute('class','btn-danger ');
     selectedItem.append(delbtn);
     cartItems.append(selectedItem);
   count=count+1;
+
+
+
 }
 
 function del(item){
@@ -51,4 +55,3 @@ function alerting(){
     alert('No items in your Cart')
 }
 }
-
